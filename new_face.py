@@ -36,7 +36,7 @@ def main():
             scaleFactor=1.1,
             minNeighbors=5,
             minSize=(30, 30)
-        
+        )
         for (x, y, w, h) in faces:
             cv2.rectangle(img_array, (x, y), (x+w, y+h), (255, 0, 0), 2)
         
